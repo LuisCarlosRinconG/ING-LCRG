@@ -5,24 +5,117 @@
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 600px) {
-    /* Estilos específicos para pantallas de hasta 600px de ancho */
+@media (max-width: 767px) {
+    body {
+        font-size: 30px;
+      }
+    
+      header {
+        height: 400px;
+      }
+    
+      .textos-header {
+        height: 300px;
+      }
+    
+      .contenedor-sobre-nosotros {
+        flex-direction: column;
+      }
+    
+      .imagen-about-us {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    
+      .contenido-textos {
+        width: 100%;
+      }
+  }
+
+
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 30px;
+    }
+  
     header {
-      height: 400px; /* Modifica el tamaño del encabezado para pantallas más pequeñas */
+      height: 400px;
     }
   
     .textos-header {
-      height: auto; /* Ajusta la altura del área de texto */
+      height: 300px;
     }
   
-    .imagen-about-us,
+    .contenedor-sobre-nosotros {
+      flex-direction: column;
+    }
+  
+    .imagen-about-us {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
     .contenido-textos {
-      width: 100%; /* Hace que las imágenes y el contenido ocupen el ancho completo */
+      width: 100%;
     }
+}
+
+@media (min-width: 768px) and (max-width:990px) {
+    body {
+        font-size: 30px;
+      }
+    
+      header {
+        height: 400px;
+      }
+    
+      .textos-header {
+        height: 300px;
+      }
+    
+      .contenedor-sobre-nosotros {
+        flex-direction: column;
+      }
+    
+      .imagen-about-us {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    
+      .contenido-textos {
+        width: 100%;
+      }
   
-    /* Puedes continuar ajustando otros estilos según sea necesario */
-  }
+}
+
+@media (min-width: 991px) {
+    body {
+        font-size: 30px;
+      }
+    
+      header {
+        height: 400px;
+      }
+    
+      .textos-header {
+        height: 300px;
+      }
+    
+      .contenedor-sobre-nosotros {
+        flex-direction: column;
+      }
+    
+      .imagen-about-us {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    
+      .contenido-textos {
+        width: 100%;
+      }
   
+}
+
 body{
     font-family: 'open sans';
 }
