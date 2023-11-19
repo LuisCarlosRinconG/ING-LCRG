@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ing. Luis Carlos Rincon Gordo</title>
+    <link rel="icon" href="./img/programador.icon">
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+        <!--Cabecera-->
+        <header>
+            <nav>
+                <a href="#sobre_mi">Sobre mi</a> 
+                <a href="#Conocimientos">Conocimientos</a>
+                <a href="#RProfesional">Resumen profesional</a>
+                <a href="#Certificaciones">Licencias y certificaciones</a>
+                
+            </nav>
+            <section class="textos-header">
+                <h1>ING. Luis Carlos Rincon Gordo</h1>
+                <h2>Desarrollador Junior y apasionado por la ciberseguridad y la IA</h2>
+            </section>
+            <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,50.10 C187.36,208.58 349.20,-50.10 500.00,50.10 L500.00,150.33 L0.00,150.33 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+
+        </header>
+        <!--sobre mil-->
+        <main>
+            <section class="contenedor sobre-nosotros">
+                <h2 class="titulo" id="sobre_mi">Sobre mi</h2>
+                <div class="contenedor-sobre-nosotros">
+                    <img src="./img/Luis1.png" alt="" class="imagen-about-us">
+                    <div class="contenido-textos">
+                        <h3><span>*</span>¿Quien soy?</h3>
+                        <p>Soy una persona la cual le 
+                            gusta asumir nuevos retos y ama 
+                            afrontar nuevas experiencias, me 
+                            destacó por mi ingenio y 
+                            ganas de aprender diariamente 
+                            buscando la 
+                            manera de crecer tanto 
+                            personal como 
+                            intelectualmente. Tengo 
+                            especial interés y afición por la 
+                            programación habiendo 
+                            participado en proyectos personales
+                            y destacando en 
+                            áreas académicas por mi 
+                            perseverancia y habilidad 
+                            para solucionar problemas de 
+                            una forma diferente y creativa.</p>
+
+                        <h3><span>*</span>Mis estudios</h3>
+                        <p> ▪ 2017 <br>
+                            Bachiller <br>
+                            Institución educativa
+                            departamental Bolívar de Ubaté <br> <br>
+                            ▪ 2023<br>
+                            Ingeniero de sistemas para graducaión en marzo de 2024<br>
+                            Universidad de Cundinamarcaseccional Ubaté</p>
+                            
+                    </div>
+                </div>
+            </section>
+
+            <!--Resumen profesional-->
+            <section class="contenedor sobre-nosotros">
+                <h2 class="titulo" id="RProfesional">Resumen profesional</h2>
+                <div class="contenedor-sobre-nosotros">
+                    <img src="./img/MCPP.png" alt="" class="imagen-about-us">
+                    <div class="contenido-textos">
+                        <h3><span>*</span>Desarrollo</h3>
+                            <p>Mi logro actual mas destacado es la creación de un proyecto personal enfocado en la prediccion de precipitaciones 
+                                a partir de datos estadisticos tomados de la estación meteorologica de la Universidad de Cundinamarca seccional Ubaté 
+                                donde apartir de la creación de un modelo denominado Modelo Comparativo de Prediccion de Precipitaciones(MCPP) se comparan
+                                modelos de machine learning como Naive Bayes, Maquina Vector Soporte y Random Forest buscando generar la predicción mas acertada
+                                frente a cuando ocurrira una lluvía, Este proyecto ya fue aprobado para dos ponencias, se encuentra en proceso de validación
+                                para la publicación de un articulo en la revista cientifica Respuestas, se encuentra en proceso de registro de software,
+                                y Fue ganador al mejor proyecto de gestión del conocimiento en la Universidad de Cundinamarca seccional Ubaté.</p>
+                        
+                            
+                    </div>
+                </div>
+            </section>
+
+            <!--Conocimientos-->
+
+            <section class="contenedor sobre-nosotros">
+                <h2 class="titulo" id="Conocimientos">Conocimientos</h2>
+                <div class="contenedor-sobre-nosotros">
+                    <img src="./img/Luis2.png" alt="" class="imagen-about-us">
+                    <div class="contenido-textos">
+                        <h3><span>*</span>Desarrollo</h3>
+                            <p> ▪ JavaScript Junior<br>
+                                ▪ HTML Junior<br>
+                                ▪ CSS Junior<br>
+                                ▪ Java nivel Medio<br>
+                                ▪ Python nivel Medio<br>
+                                ▪ Framework Flask.</p>
+                                
+                        <h3><span>*</span>Gestores de Bases de Datos:</h3>
+                            <p> ▪ MongoDB (Junior),<br>
+                                ▪ MySQL (Junior),<br>
+                            </p>
+                        
+                        <h3><span>*</span>Metodologias</h3>
+                        <p> ▪ Scrum <br>
+                            ▪ Espiral
+                        </p>
+                        
+                            
+                    </div>
+                </div>
+            </section>
+
+            <section class="LyC">
+
+                <h2 class="titulo" id="Certificaciones">Licencias y certificaciones</h2>
+                <table id="tablaLicencias" class="display" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Descripción</th>
+                            <th>Fecha de expedición</th>
+                            <th>Enlace público</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>Introduction to Cybersecurity Cisco</td>
+                        <td>Expedida en junio de 2023</td>
+                        <td><a href="https://www.credly.com/badges/a690bf6d-6365-4c03-94fd-97aaacb6b846/public_url">Pulsa aquí</a></td>
+                    </tr>
+                    <tr>
+                        <td>Ruta de aprendizaje en Microsoft Learn</td>
+                        <td>Varios certificados expedidos</td>
+                        <td><a href="https://learn.microsoft.com/es-es/users/luiscarlosrincongordo-8299/">Pulsa aquí</a></td>
+                    </tr>
+                    <tr>
+                        <td>MATLAB Fundamentals</td>
+                        <td>Expedida en agosto de 2023</td>
+                        <td><a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=0298b28d-f28c-453e-b988-22f894893c41&">Pulsa aquí</a></td>
+                    </tr>
+                    <tr>
+                        <td>INTRODUCCIÓN A LA SEGURIDAD</td>
+                        <td>Expedida en julio de 2023</td>
+                        <td><a href="https://backtrackacademy.com/examen/70/certificate.pdf?key=0e5c784e8bf02cf8c3cf6ae83ccc02fd">Pulsa aquí</a></td>
+                    </tr>
+                    <tr>
+                        <td>Certificado profesional de la Fundación Scrum SFPC™</td>
+                        <td>Expedida en agosto de 2023</td>
+                        <td><a href="https://www.credly.com/badges/264e4cfc-5b84-47ab-ae86-95833e2e02c1/linked_in_profile">Pulsa aquí</a></td>
+                    </tr>
+                    <tr>
+                        <td>Curso de Introducción a Machine Learning</td>
+                        <td>Expedida en septiembre de 2023</td>
+                        <td><a href="https://platzi.com/p/luiscarlosrincongordo/curso/2459-machine-learning/diploma/detalle/">Pulsa aquí</a></td>
+                    </tr>
+                    <tr>
+                        <td>Machine Learning with MATLAB</td>
+                        <td>Expedida en septiembre de 2023</td>
+                        <td><a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=bb9c6a39-d9da-4a2c-a1a6-f9ceefba2864&">Pulsa aquí</a></td>
+                    </tr>
+                    <tr>
+                        <td>Deep Learning with MATLAB</td>
+                        <td>Expedida en septiembre de 2023</td>
+                        <td><a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=24fd67f6-f727-452c-a547-5b62d7daa308&">Pulsa aquí</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+                <script>
+                    $(document).ready(function() {
+                        $('#tablaLicencias').DataTable({
+                        "aLengthMenu": [[5,10,20,-1],[5,10,20,"Todo"]],
+                            "iDisplayLength": 5,
+                            "language":{
+                                "lengthMenu": "Mostrar _MENU_ registros por página",
+                                "search" : "Buscar",
+                                "zeroRecords": "Ningún Registro Encontrado",
+                                "info" : "Pagina _PAGE_ de _PAGES_",
+                                "infoEmpty": "Ningún Registro Disponible",
+                                "infoFiltered" : "(Filtrado de _MAX_ registro(s) totales)",
+                                "paginate": {
+                                    "first" : "Primero",
+                                    "last" : "Último",
+                                    "next" : "Siguiente",
+                                    "previous" : "Anterior"
+                                }
+                            }
+                        });
+                    } );
+                </script>
+
+            </section>
+            
+        </main>
+
+        <!--Pie de pagina-->
+        <footer>
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4>numero de contacto</h4>
+                    <a href="https://api.whatsapp.com/send?phone=573015359537">+57 301 535 9537</a>
+                </div>
+                <div class="content-foo">
+                    <h4>Correo</h4>
+                    <a href="mailto:luiscarlosrincongordo@gmail.com">luiscarlosrincongordo@gmail.com</a>
+                </div>
+                <div class="content-foo">
+                    <h4>Ubicación</h4>
+                    <p>Villa De San Diego De Ubaté</p>
+                    <p>Código postal: 250430</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Redes</h4>
+                    <a href="https://github.com/LuisCarlosRinconG">GitHub</a> <br>
+                    <a href="https://www.linkedin.com/in/luis-carlos-rincon-gordo-303513255/">Linkedln</a> <br>
+                    <a href="https://linktr.ee/LuisCarlosRinconGordo">Linktree</a> <br>
+                    <a href="https://scholar.google.com/citations?hl=es&user=JAwaCMYAAAAJ&scilu=&scisig=AMD79ooAAAAAZAbJQwyOkhkvJc8U80_Xah6XEYuIlJHG&gmla=AJsN-F4BMyHLa2J3KouAuWO3lP-r-j4de0ByWdcPBi3Ygf5NkjnrQvSG17mAIjOKcQODaOwNMHU7anbcT-LR4RKFK15Nov6Qv_b88ZFWMLK3AtGqrRdpnk0PwuO4ZQ8I-iUMT8n2Yxfs&sciund=3135249674505597099">Google Schoolar</a> <br>
+                    <a href="https://orcid.org/0009-0006-3296-3575">Orcid</a> <br>
+                    <a href="https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001938824">cvlac</a>
+                
+                </div>
+            </div>
+            <h2 class="titulo-final">&copy; Ing. Luis Carlos Rincon Gordo</h2>
+        </footer>
+
+
+
+
+    </body>
+
+</html>
+
+
+<!--
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ing. Luis Carlos Rincon Gordo</title>
+</head>
+<body>
+    <h1>Luis Carlos Rinccon Gordo</h1>
+    <img src="C:\Users\Usuario\Desktop\Propios\img\Luis.png">
+    <h2>¿Quien soy?</h2>
+    <p> Soy una persona a la cual le 
+        gusta asumir nuevos retos y no 
+        tiene miedo de afrontar 
+        nuevas experiencias, me 
+        destacó por mi ingenio y 
+        ganas de aprenderdiariamente 
+        buscando la 
+        manera de crecer tanto 
+        personal como 
+        intelectualmente. Tengo 
+        especial interés y afición por la 
+        programación habiendo 
+        participado en proyectos 
+        tanto personales y laborales,
+        así como destacando en 
+        áreas académicas por mi 
+        perseverancia y habilidad 
+        para solucionar problemas de 
+        una forma diferente y creativa
+    </p>
+
+    <h2>Licencias y certificaciones</h2>
+
+    <ul>
+        <li>
+            <p> 
+                * Introduction to Cybersecurity Cisco <br>
+                Expedida en junio de 2023<br>
+                Enlace público:<br>
+                <a href="https://www.credly.com/badges/a690bf6d-6365-4c03-94fd-97aaacb6b846/public_url">Pulsa aquí</a>
+            </p>
+        </li>
+        <li>
+            <p>
+                * Ruta de aprendizaje en microsoft learn: <br>
+                ✓ Creación y administración de proyectos en Python<br>
+                ✓ Introducción a DevOps<br>
+                ✓ Uso de lógica booleana en Python<br>
+                ✓ Configuración del entorno de desarrollo para principiantes de Python con Visual Studio Code<br>
+                ✓ Creación de sus primeros programas en Python<br>
+                ✓ Introducción a los cuadernos de Jupyter para Python<br>
+                Enlace público: <br>
+                <a href="https://learn.microsoft.com/es-es/users/luiscarlosrincongordo-8299/">Pulsa aquí</a>
+            </p>
+        </li>
+        <li>
+            <p>
+                * MATLAB Fundamentals <br>
+                Expedida en agosto de 2023 <br>
+                Enlace público: <br>
+                <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=0298b28d-f28c-453e-b988-22f894893c41&">Pulsa aquí</a>
+            </p>
+        </li>
+        <li>
+            <p>
+                * INTRODUCCIÓN A LA SEGURIDAD<br>
+                Expedida en julio de 2023<br>
+                Enlace público:<br>
+                <a href="https://backtrackacademy.com/examen/70/certificate.pdf?key=0e5c784e8bf02cf8c3cf6ae83ccc02fd">Pulsa aquí</a>
+            </p>
+        </li>
+        <li>
+            <p>
+                * Certificado profesional de la Fundación Scrum SFPC™<br>
+                Expedida en agosto de 2023<br>
+                Id de la credencial: 87990214<br>
+                Enlace público:<br>
+                <a href="https://www.credly.com/badges/264e4cfc-5b84-47ab-ae86-95833e2e02c1/linked_in_profile">Pulsa aquí</a>
+            </p>
+        </li>
+        <li>
+            <p>
+                * Curso de Introducción a Machine Learning <br>
+                Expedida en septiembre de 2023 <br>
+                Enlace público: <br>
+                <a href="https://platzi.com/p/luiscarlosrincongordo/curso/2459-machine-learning/diploma/detalle/">Pulsa aquí</a>
+            </p>
+        </li>
+        <li>   
+            <p>
+                * Machine Learning with MATLAB <br>
+                Expedida en septiembre de 2023 <br>
+                Enlace público:<br>
+                <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=bb9c6a39-d9da-4a2c-a1a6-f9ceefba2864&">Pulsa aquí</a>
+            </p>
+        </li>
+        <li>
+            <p>
+                * Deep Learning with MATLAB <br>
+                Expedida en septiembre de 2023 <br>
+                Enlace público:<br>
+                <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=24fd67f6-f727-452c-a547-5b62d7daa308&">Pulsa aquí</a>
+            </p>
+        </li>
+    </ul>
+</body>
+</html>
+-->
