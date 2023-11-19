@@ -5,39 +5,30 @@
     box-sizing: border-box;
 }
 
-
-/* Media query para pantallas más pequeñas (celulares) */
 @media only screen and (max-width: 768px) {
-    /* Ajustes para pantallas de hasta 768px de ancho */
+
   
     header {
-      height: 400px; /* Modifica el tamaño del encabezado para pantallas más pequeñas */
+      height: auto;
     }
   
     .textos-header {
-      height: auto; /* Ajusta la altura del área de texto */
+      height: auto;
     }
   
     .imagen-about-us,
     .contenido-textos {
-      width: 100%; /* Hace que las imágenes y el contenido ocupen el ancho completo */
+      width: auto; 
     }
-  
-    /* Ajustes adicionales según sea necesario */
+
   }
   
-  /* Media query para pantallas medianas (tablets, etc.) */
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Ajustes para pantallas medianas */
-  
-    /* Aquí puedes agregar ajustes específicos para este rango de tamaños */
+
   }
-  
-  /* Media query para pantallas más grandes (computadoras de escritorio, laptops, etc.) */
+
   @media only screen and (min-width: 1025px) {
-    /* Ajustes para pantallas más grandes */
-  
-    /* Aquí puedes agregar ajustes específicos para pantallas más grandes */
+
   }
 
 
