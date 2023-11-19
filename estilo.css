@@ -12,18 +12,27 @@
     header {
       height: 400px;
     }
+
+    
   
     .textos-header {
       height: auto;
     }
   
-    .imagen-about-us{
-      width: 20%;
-      height: 20%;
+    .contenedor-sobre-nosotros {
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
     }
-    .contenido-textos {
-      width: 80%;
 
+    .imagen-about-us {
+        width: 70%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .contenido-textos {
+        width: 80%;
     }
     
     footer {
