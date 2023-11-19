@@ -25,12 +25,12 @@
     }
   
     .imagen-about-us {
-      width: 20%;
+      width: 100%;
       margin-bottom: 20px;
     }
   
     .contenido-textos {
-      width: 80%;
+      width: 100%;
     }
 }
 
