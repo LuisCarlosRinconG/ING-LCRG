@@ -17,7 +17,7 @@
       height: auto;
     }
   
-    .img{
+    .imagen-about-us{
       width: 20%;
       height: 20%;
     }
@@ -26,7 +26,7 @@
     }
 
     footer{
-        height: 400px; 
+        height: 0px; 
     }
     
     .textos-footer {
