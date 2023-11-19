@@ -5,116 +5,41 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 767px) {
-    body {
-        font-size: 30px;
-      }
-    
-      header {
-        height: 400px;
-      }
-    
-      .textos-header {
-        height: 300px;
-      }
-    
-      .contenedor-sobre-nosotros {
-        flex-direction: column;
-      }
-    
-      .imagen-about-us {
-        width: 100%;
-        margin-bottom: 20px;
-      }
-    
-      .contenido-textos {
-        width: 100%;
-      }
-  }
 
-
-@media screen and (max-width: 768px) {
-    body {
-      font-size: 30px;
-    }
+/* Media query para pantallas más pequeñas (celulares) */
+@media only screen and (max-width: 768px) {
+    /* Ajustes para pantallas de hasta 768px de ancho */
   
     header {
-      height: 400px;
+      height: 400px; /* Modifica el tamaño del encabezado para pantallas más pequeñas */
     }
   
     .textos-header {
-      height: 300px;
+      height: auto; /* Ajusta la altura del área de texto */
     }
   
-    .contenedor-sobre-nosotros {
-      flex-direction: column;
-    }
-  
-    .imagen-about-us {
-      width: 100%;
-      margin-bottom: 20px;
-    }
-  
+    .imagen-about-us,
     .contenido-textos {
-      width: 100%;
+      width: 100%; /* Hace que las imágenes y el contenido ocupen el ancho completo */
     }
-}
-
-@media (min-width: 768px) and (max-width:990px) {
-    body {
-        font-size: 30px;
-      }
-    
-      header {
-        height: 400px;
-      }
-    
-      .textos-header {
-        height: 300px;
-      }
-    
-      .contenedor-sobre-nosotros {
-        flex-direction: column;
-      }
-    
-      .imagen-about-us {
-        width: 100%;
-        margin-bottom: 20px;
-      }
-    
-      .contenido-textos {
-        width: 100%;
-      }
   
-}
-
-@media (min-width: 991px) {
-    body {
-        font-size: 30px;
-      }
-    
-      header {
-        height: 400px;
-      }
-    
-      .textos-header {
-        height: 300px;
-      }
-    
-      .contenedor-sobre-nosotros {
-        flex-direction: column;
-      }
-    
-      .imagen-about-us {
-        width: 100%;
-        margin-bottom: 20px;
-      }
-    
-      .contenido-textos {
-        width: 100%;
-      }
+    /* Ajustes adicionales según sea necesario */
+  }
   
-}
+  /* Media query para pantallas medianas (tablets, etc.) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Ajustes para pantallas medianas */
+  
+    /* Aquí puedes agregar ajustes específicos para este rango de tamaños */
+  }
+  
+  /* Media query para pantallas más grandes (computadoras de escritorio, laptops, etc.) */
+  @media only screen and (min-width: 1025px) {
+    /* Ajustes para pantallas más grandes */
+  
+    /* Aquí puedes agregar ajustes específicos para pantallas más grandes */
+  }
+
 
 body{
     font-family: 'open sans';
