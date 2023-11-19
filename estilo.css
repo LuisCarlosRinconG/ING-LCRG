@@ -26,15 +26,27 @@
 
     }
     
-    footer{
+    footer {
         width: 100%;
-        height: 100px;
+        height: auto;
+        padding: 20px 0;
     }
-    .textos-footer {
-        width: 50%;
-      }
 
-  }
+    .contenedor-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-foo {
+        margin-bottom: 15px;
+    }
+
+    .content-foo a {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+
 
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
   }
