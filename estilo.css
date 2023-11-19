@@ -7,6 +7,33 @@
 
 @media (max-width: 767px) {}
 
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 14px; /* Tamaño de fuente más pequeño para dispositivos móviles */
+    }
+  
+    header {
+      height: 400px; /* Reducir la altura del encabezado para dispositivos móviles */
+    }
+  
+    .textos-header {
+      height: 300px; /* Ajustar la altura del texto del encabezado */
+    }
+  
+    .contenedor-sobre-nosotros {
+      flex-direction: column; /* Cambiar la dirección del contenido sobre nosotros a vertical */
+    }
+  
+    .imagen-about-us {
+      width: 100%; /* Hacer la imagen más ancha para dispositivos móviles */
+      margin-bottom: 20px; /* Aumentar el espacio entre la imagen y el texto */
+    }
+  
+    .contenido-textos {
+      width: 100%; /* Hacer el contenido de texto más ancho para dispositivos móviles */
+    }
+}
+
 @media (min-width: 768px) and (max-width:990px) {}
 
 @media (min-width: 991px) {}
