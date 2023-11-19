@@ -5,26 +5,28 @@
     box-sizing: border-box;
 }
 
+
 @media only screen and (max-width: 768px) {
 
   
     header {
-      height: auto;
+      height: 400px;
     }
   
     .textos-header {
       height: auto;
     }
   
-    .imagen-about-us,
+    .imagen-about-us{
+      width: 100%;
+    }
     .contenido-textos {
-      width: auto; 
+      width: 100%;
     }
 
   }
-  
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
   }
 
   @media only screen and (min-width: 1025px) {
