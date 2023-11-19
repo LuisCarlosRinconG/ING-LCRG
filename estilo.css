@@ -18,16 +18,19 @@
     }
   
     .imagen-about-us{
-      width: 100%;
-      height: 100%;
+      width: 20%;
     }
     .contenido-textos {
       width: 100%;
     }
 
     footer{
-        height: 200px; 
+        height: 400px; 
     }
+    
+    .textos-footer {
+        height: auto;
+      }
 
   }
 
