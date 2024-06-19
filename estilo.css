@@ -8,7 +8,14 @@
 
 @media only screen and (max-width: 768px) {
 
-  
+  h3 {
+            color: #ff4500; /* Color naranja brillante */
+            font-size: 24px; /* Tamaño de fuente más grande */
+            text-shadow: 2px 2px #aaa; /* Sombra para el texto */
+            font-family: 'Arial', sans-serif; /* Fuente personalizada */
+            margin-bottom: 10px; /* Espacio debajo del título */
+ }
+    
     header {
       height: 400px;
     }
