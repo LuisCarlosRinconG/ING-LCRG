@@ -28,15 +28,16 @@
   
     .contenedor-sobre-nosotros {
         display: flex;
+        flex-wrap: wrap; /* Permite que los elementos se acomoden en varias líneas */
         justify-content: space-between;
-        align-items: flex-start;
         gap: 20px;
     }
 
     .imagen-about-us {
-        width: 100%;
-        max-width: 300px; /* Ajusta el tamaño máximo de la imagen */
+        flex: 1;
+        max-width: 300px; /* Controla el tamaño máximo de la imagen */
         object-fit: cover; /* Mantiene la imagen sin estirarla */
+        height: auto;
     }
 
 
@@ -305,12 +306,19 @@ footer{
 
 /* La estructura de las skills */
 .skills {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
-    gap: 20px; /* Espacio entre columnas */
+    display: flex;
+    flex-wrap: wrap; /* Para que las skill-items se acomoden en varias filas si es necesario */
+    gap: 20px;
+    flex: 2; /* Toma el espacio restante de la fila */
+    width: 100%;
 }
 
 /* Agrupar título y párrafo juntos */
+.skill-item {
+    flex-basis: 48%; /* Crea un 48% de ancho para que queden 2 items por fila */
+    box-sizing: border-box;
+}
+
 .skill-item h3 {
     margin-bottom: 8px;
     color: #4d0686;
@@ -325,7 +333,21 @@ footer{
 
 /* Asegura que las columnas sean responsivas (se conviertan en una columna en pantallas pequeñas) */
 @media (max-width: 768px) {
+    .contenedor-sobre-nosotros {
+        flex-direction: column; /* Apila la imagen y el contenido */
+        align-items: center;
+    }
+
     .skills {
-        grid-template-columns: 1fr; /* Solo una columna */
+        flex-direction: column; /* Pone todo en una sola columna */
+        gap: 15px;
+    }
+
+    .skill-item {
+        flex-basis: 100%; /* Hace que los items tomen todo el ancho */
+    }
+
+    .imagen-about-us {
+        max-width: 80%; /* Controla el tamaño de la imagen en pantallas pequeñas */
     }
 }
