@@ -35,11 +35,11 @@
 
 
     .imagen-about-us {
-        flex: 1;
-        max-width: 300px; /* Controla el tamaño máximo de la imagen */
-        object-fit: cover; /* Mantiene la imagen sin estirarla */
+        max-width: 300px; /* O el tamaño que uses */
         height: auto;
+        margin-right: 20px; /* <<< Aquí separas la imagen del texto */
     }
+
 
 
     .contenido-textos {
