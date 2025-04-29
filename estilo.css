@@ -33,10 +33,11 @@
     }
 
     .imagen-about-us {
-        width: 70%;
-        height: auto;
-        margin-bottom: 20px;
+    width: 48%;
+    height: auto;
+    align-self: flex-start;
     }
+
 
     .contenido-textos {
         width: 80%;
