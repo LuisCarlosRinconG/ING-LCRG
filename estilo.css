@@ -28,10 +28,11 @@
   
     .contenedor-sobre-nosotros {
         display: flex;
-        flex-wrap: wrap; /* Permite que los elementos se acomoden en varias líneas */
+        align-items: center;
         justify-content: space-between;
-        gap: 20px;
+        gap: 30px; /* <<< Añades un espacio entre la imagen y el texto */
     }
+
 
     .imagen-about-us {
         flex: 1;
