@@ -27,15 +27,16 @@
     }
   
     .contenedor-sobre-nosotros {
-        flex-direction: column;
-        align-items: center; 
-        text-align: center; 
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
     }
 
     .imagen-about-us {
-    width: 48%;
-    height: auto;
-    align-self: flex-start;
+        width: 100%;
+        max-width: 300px; /* Ajusta el tamaño máximo de la imagen */
+        object-fit: cover; /* Mantiene la imagen sin estirarla */
     }
 
 
@@ -302,18 +303,29 @@ footer{
     color: #ffffff;
 }
 
+/* La estructura de las skills */
 .skills {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
     gap: 20px; /* Espacio entre columnas */
 }
 
+/* Agrupar título y párrafo juntos */
 .skill-item h3 {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     color: #4d0686;
+    font-size: 1.1em;
 }
 
 .skill-item p {
     font-weight: 300;
+    line-height: 1.6;
+    font-size: 1em;
 }
 
+/* Asegura que las columnas sean responsivas (se conviertan en una columna en pantallas pequeñas) */
+@media (max-width: 768px) {
+    .skills {
+        grid-template-columns: 1fr; /* Solo una columna */
+    }
+}
