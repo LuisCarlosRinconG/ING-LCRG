@@ -307,12 +307,12 @@ footer{
 
 /* La estructura de las skills */
 .skills {
-    display: flex;
-    flex-wrap: wrap; /* Para que las skill-items se acomoden en varias filas si es necesario */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
-    flex: 2; /* Toma el espacio restante de la fila */
-    width: 100%;
+    margin-left: 20px; /* <<< mueve solo las dos columnas a la derecha */
 }
+
 
 /* Agrupar título y párrafo juntos */
 .skill-item {
